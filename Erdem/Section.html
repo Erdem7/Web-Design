@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Karasahin</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="Sstyle.css">
+</head>
+
+<body>
+	<nav class="navbar-default">
+		<div class="container clearfix">
+			<div id="logo-box">
+				<a href="#" style="text-decoration: none;" class="logo text-uppercase">
+					<img src="eagle.png" alt="" style="width: 100px; height: 70px;">
+				</a>
+			</div>
+			<div id="nav-links" class="responsive">
+				<ul>
+				
+					<li class="nav-item">
+						<a  id="myBtn" class="nav-link text-uppercase nav-icon">
+							<i class="fas fa-bars"></i>
+						</a>
+                    </li>
+ 
+					<li class="nav-item">
+						<a href="#sec1" class="nav-link text-uppercase">
+							About Us
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#sec2" class="nav-link text-uppercase">
+							Content
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#sec3" class="nav-link text-uppercase">
+							Contact
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#sec4" class="nav-link text-uppercase">
+							Footer
+						</a>
+					</li>
+					
+				</ul>
+            </div>
+
+			
+		</div>
+	</nav>
+	<div id="myModal" class="modal">
+		<div class="modal-content">  
+			<div class="modal-head">  
+										 
+			<span class="close"></span> 
+			<button class="clsbtn"></button>   
+			<h1 class="text-uppercase"style="margin-left:50px;">Menu</h1>
+			
+			</div>
+									 
+			<div class="modal-body">
+			<ul>
+				<li class="modal-li"  style="margin-top: 10px;">
+					<a href="#sec1" class="nav-link text-uppercase denem">
+						About Us
+					</a>
+				</li>
+				<li class="modal-li">
+					<a href="#sec2" class="text-uppercase denemi">
+						Content
+					</a>
+				</li>
+				
+				<li class="modal-li">
+					<a href="#sec3" class="text-uppercase denemii">
+						Contact
+					</a>
+				</li>
+				<li class="modal-li">
+					<a href="#sec4" class="text-uppercase denemiii">
+						Footer
+					</a>
+				</li>
+			</ul>
+			</div>
+			
+			</div>
+
+</div>
+	<section class="about" id="sec1">
+		<h1 class="text-uppercase">About Us</h1>
+		<hr class="head-horizon" >
+		<div class="container">
+			<h2 class="text-uppercase" id="head-text">Karasahin Ailesi olarak size tasarım anlamında en iyi hizmeti vermek için buradayız.</h2>
+			<br>
+			<br>
+			<p class="text-uppercase content-text" >HEM MIMARLIK ALANINDA HEM YAZILIM ALANINDA YAPTIGIMIZ ISLERLE VE DENEYIMLERIMIZE DAYANARAK SEKTÖRÜN EN IYISI OLACAGIMIZA INANIYORUZ.</p>
+			<br>			
+			<p class="text-uppercase content-text" style="text-align: right;">Ve bunun için gayret ediyoruz...</p>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h5 class="text-uppercase">Aşağıdaki ürünlerimiz örnekdir!</h5>
+		</div>
+	</section>
+	<section class="portfolio" id="sec2">
+		<h1 class="text-uppercase">CONTENT</h1>
+		<hr class="head-horizon">
+		<div class="container">
+			<div class="content-item">
+				<div class="row">
+					<div class="col-sm-8">
+					  <h3 class="text-uppercase">MacBook Air</h3>
+					<div class="landspace">
+					 <img src="img1.jpg" id="slider1" alt="" class="showSlide" >
+					 <img src="img2.jpg" id="slider2" style="display: none;" alt="" class="showSlide">
+					 <div class="slider">
+						<input type="radio"  for="slider1" onclick="nextSlide(1)" name="slider" title="slide1" checked="checked" style ="margin: 5px;"class="slider__nav"/>
+						<input type="radio"  name="slider"for="slider2"  onclick="nextSlide(-1)" title="slide2"style ="margin: 5px;" class="slider__nav"/>
+
+					</div>
+					</div>
+					</div>
+					<div class="col-sm-4">
+						<h3>Properties</h3>
+					  <ul>
+						  <li style="list-style-type: disc;">
+							 <p class="text-uppercase"> i5 Process</p>
+						  </li>
+						  <li style="list-style-type: disc;">
+							<p class="text-uppercase"> 8GB RAM</p>
+						</li>
+						<li style="list-style-type: disc;">
+							<p class="text-uppercase"> Nvidia Graphics</p>
+						</li>
+						<li style="list-style-type: disc;">
+							<p class="text-uppercase">240GB sdd</p>
+						</li>
+					  </ul>
+	
+					</div>
+					
+				</div>
+			</div>
+			<br>
+			<hr class="horizon">
+			<div class="content-item">
+				<div class="row">
+					
+					<div class="col-sm-4 second" style="height: 100%;">
+						<h3>Properties</h3>
+					  <ul>
+						  <li style="list-style-type: disc;">
+							 <p class="text-uppercase"> Apple Macbook</p>
+						  </li>
+						  <li style="list-style-type: disc;">
+							<p class="text-uppercase"> Apple Macbook</p>
+						</li>
+						<li style="list-style-type: disc;">
+							<p class="text-uppercase"> Apple Macbook</p>
+						</li>
+						<li style="list-style-type: disc;">
+							<p class="text-uppercase"> Apple Macbook</p>
+						</li>
+					  </ul>
+	
+					</div>
+
+					<div class="col-sm-8 " >
+						<h3 class="text-uppercase">IPAD AIR</h3>
+					  <div class="landspace">
+					   <img src="img3.jpg" id="slider3" alt="" class="showSlideD" >
+					   <img src="img4.jpg" id="slider4" style="display: none;" alt="" class="showSlideD">
+					   <div class="slider">
+						  <input type="radio" for="slider3" onclick="currentSlide(1)" name="slider" title="slide3" checked="checked" style ="margin: 5px;"class="slider__navD"/>
+						  <input type="radio" name="slider"for="slider4"  onclick="currentSlide(2)" title="slide4"style ="margin: 5px;" class="slider__navD"/>
+  
+					  </div>
+					  </div>
+					  </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section class="contact" id="sec3">
+		<div class="container">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+			<button id="toggle"><h2 class="text-uppercase">Bİzİmle İletİşİme Geçmek İçİn Tıklayınız</h2></button>
+			<hr class="head-horizon">
+			<div class="slide-in from-left">
+				<div class="slide-in-content">
+					<input class="form-control form-control-lg" type="text" placeholder="İsim">
+				</div>
+			  </div>
+			  
+			  <div class="slide-in from-right">
+				<div class="slide-in-content">
+					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+				</div>
+			  </div>
+
+			  <div class="slide-in from-left">
+				<div class="slide-in-content">
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mesajınız"></textarea>
+				</div>
+			  </div>
+			  <div class="slide-in from-right">
+				<div class="slide-in-content">
+					<button class="btn btn-primary">
+						Gönder		
+					</button>
+				</div>
+			  </div>
+			
+		</div>
+	</section>
+	
+	<footer id="sec4">
+        <div class="container clearfix">
+			
+			
+			<div class="col">
+				<h4 class="text-uppercase">Sosyal Medya</h4>
+				<hr class="footer-horizon">
+				<br>
+				<ul>
+					
+					<li>
+						<button class="btn btn-outline btn-social">
+							<i class="fab fa-lg fa-instagram"></i>
+						</button>
+					</li>
+					<li>
+						<button class="btn btn-outline btn-social">
+							<i class="fab fa-lg fa-linkedin-in"></i>
+						</button>
+					</li>
+					<li>
+						<button class="btn btn-outline btn-social">
+							<i class="fab fa-fw fa-google-plus-g"></i>
+						</button>
+					</li>
+					
+				</ul>
+			
+			</div>
+			<div class="col">
+				<h4 class="text-uppercase">Adresimiz</h4>
+				<hr class="footer-horizon">
+				<br>
+				<h5 class="text-uppercase">Alanya/Antalya</h5>
+				<p>Saray Mah. Sugözü Cad.</p>
+			</div>
+    </footer>
+	
+	<div class="copyright">
+		<div class="container">
+			<small>
+				Copyright © Your Website 2020
+			</small>
+		</div>
+	</div>
+	
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	
+	<script>
+	
+	
+	
+	</script>
+	 
+   <script>
+    
+    var modal = document.getElementById("myModal");
+    
+  
+    var btn = document.getElementById("myBtn");
+    
+    
+    var span = document.getElementsByClassName("close")[0];
+	var denem = document.getElementsByClassName("denem")[0];
+	var clsbtn = document.getElementsByClassName("clsbtn")[0];
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+	clsbtn.onclick = function() {
+      modal.style.display = "none";
+    }
+    denem.onclick = function() {
+      modal.style.display = "none";
+    }
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+	</script>
+	<script>
+    
+		var modal = document.getElementById("myModal");
+		var btn = document.getElementById("myBtn");
+		var denemi = document.getElementsByClassName("denemi")[0];
+	
+		denemi.onclick = function() {
+		  modal.style.display = "none";
+		}
+
+		
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+			modal.style.display = "none";
+		  }
+		}
+		</script>
+		<script>
+    
+		var modal = document.getElementById("myModal");
+		var btn = document.getElementById("myBtn");
+		var denemii = document.getElementsByClassName("denemii")[0];
+	
+		denemii.onclick = function() {
+		  modal.style.display = "none";
+		}
+
+		
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+			modal.style.display = "none";
+		  }
+		}
+		</script>
+		<script>
+    
+			var modal = document.getElementById("myModal");
+			var btn = document.getElementById("myBtn");
+			var denemiii = document.getElementsByClassName("denemiii")[0];
+		
+			denemiii.onclick = function() {
+			  modal.style.display = "none";
+			}
+	
+			
+			window.onclick = function(event) {
+			  if (event.target == modal) {
+				modal.style.display = "none";
+			  }
+			}
+			</script>
+	<script type="text/javascript">  
+        var slide_index = 1;  
+        displaySlides(slide_index);  
+  
+        function nextSlide(n) {  
+            displaySlides(slide_index += n);  
+        }  
+  
+        function currentSlide(n) {  
+            displaySlides(slide_index = n);  
+        }  
+  
+        function displaySlides(n) {  
+            var i;  
+            var slides = document.getElementsByClassName("showSlide");  
+            if (n > slides.length) { slide_index = 1 }  
+            if (n < 1) { slide_index = slides.length }  
+            for (i = 0; i < slides.length; i++) {  
+                slides[i].style.display = "none";  
+            }  
+            slides[slide_index - 1].style.display = "block";  
+        }  
+	</script>  
+	<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("showSlideD");
+  var dots = document.getElementsByClassName(".slider__navD");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<script>
+	$(window).scroll(function(){
+	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+});
+</script>
+
+<script>
+	$('#toggle').click(function() {
+  $('.slide-in').toggleClass('show');
+});
+</script>
+<script>
+var $slider = document.getElementById('contact');
+var $toggle = document.getElementById('toggle');
+
+$toggle.addEventListener('click', function() {
+    var isOpen = $slider.classList.contains('slide-in');
+
+    $slider.setAttribute('class', isOpen ? 'slide-out' : 'slide-in');
+});
+</script>
+
+</body>
+
+</html>
